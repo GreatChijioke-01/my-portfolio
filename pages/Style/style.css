@@ -1,0 +1,36 @@
+/* This part forces the vertical stack */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between boxes */
+    width: 100%;
+}
+
+/* This ensures every input takes its own line */
+input[type="text"], 
+input[type="email"], 
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #4a4a4a;
+    background-color: #262730;
+    color: white;
+}
+
+/* Styling the button so it looks normal */
+button[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    background-color: #0047AB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #0047AB;
+}
