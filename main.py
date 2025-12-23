@@ -117,7 +117,7 @@ if selected == 'Projects':
             st.subheader("Portfolio website")
             st.write("Using Streamlit framework I built a fully functioning website with python programming language. ")
             url3 = "https://github.com/GreatChijioke-01/my-portfolio"
-            st.markdown("[Visit Github Repo]({url3})")
+            st.markdown(f"[Visit Github Repo]({url3})")
             st.caption("Next project is loading....")
 
 if selected == 'Contact':
